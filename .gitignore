@@ -1,0 +1,53 @@
+
+# Python cache files (at any directory depth)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Pandas / Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Generated data and reports (all directories)
+*.csv
+*.xlsx
+*.xls
+*.parquet
+*.json
+
+# Logs
+*.log
+
+# Testing and type checking
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build files
+build/
+dist/
+*.egg-info/
+
+# Git itself
+.git/
